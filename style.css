@@ -5,7 +5,7 @@
     --accent-color: #630a0a;
     --light-color: #f8f9fa;
     --dark-color: #212529;
-    --gray-color: #6c757d;
+    --gray-color: #000000;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.2);
     --transition: all 0.3s ease;
@@ -44,6 +44,9 @@ body {
 .header p {
     font-size: 1.1rem;
     opacity: 0.9;
+}
+.photo-card p {
+     font-family: "Oswald", sans-serif;
 }
 
 /* Container Principal */
@@ -88,6 +91,7 @@ body {
     display: grid;
     gap: 25px;
 }
+
 
 .grid-layout {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
