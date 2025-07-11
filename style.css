@@ -301,3 +301,25 @@ body {
         display: none;
     }
 }
+/* Botão de Próxima Página */
+.next-page {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.next-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.next-btn:hover {
+  background-color: var(--accent-color);
+  box-shadow: var(--shadow-hover);
+}
