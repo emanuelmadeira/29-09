@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,14 @@
         <source src="acerola-acústico-de-quarto.mp3" type="audio/mpeg">
     </audio>
 </head>
+
 <body>
+    <!--Titulo-->
     <header class="header">
         <h1>Nosso Mural de Fotos</h1>
         <p>Memórias especiais </p>
     </header>
-    
+    <!--Nav com clics para dimensionar tamanho-->
     <main class="container">
         <div class="controls">
             <button class="btn active" data-size="medium">Médio</button>
@@ -26,9 +29,9 @@
             <button class="btn" data-layout="grid">Grade</button>
             <button class="btn" data-layout="masonry">Mosaico</button>
         </div>
-        
+
         <div class="photo-wall grid-layout">
-            <!-- Foto 1 -->
+            <!--Cards com fotos-->
             <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (4).jpeg" alt="Natureza">
@@ -39,7 +42,7 @@
                     <span class="photo-date">29/09/2024</span>
                 </div>
             </div>
-            
+
             <!-- Foto 2 -->
             <div class="photo-card medium">
                 <div class="photo-container">
@@ -50,7 +53,7 @@
                     <p>Mesmo com as fotos ruins são bons momentos a se guardar.</p>
                 </div>
             </div>
-            
+
             <!-- Adicione mais fotos aqui -->
             <!-- Foto 3 a 12 -->
             <div class="photo-card medium">
@@ -63,7 +66,7 @@
                     <span class="photo-date">31/12/2024</span>
                 </div>
             </div>
-            
+
             <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (1).jpeg" alt="Montanhas">
@@ -74,9 +77,9 @@
                     <span class="photo-date">29/--/2024-2025</span>
                 </div>
             </div>
-               
 
-               <div class="photo-card medium">
+
+            <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (7).jpeg" alt="Natureza">
                 </div>
@@ -87,18 +90,18 @@
                 </div>
             </div>
 
-             <div class="photo-card medium">
+            <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (8).jpeg" alt="Natureza">
                 </div>
                 <div class="photo-info">
                     <h3>Fotos Ruins</h3>
                     <p>Que adoro tirar para te irritar mas me fazem feliz</p>
-                    
+
                 </div>
             </div>
-            
-             <div class="photo-card medium">
+
+            <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (9).jpeg" alt="Natureza">
                 </div>
@@ -109,7 +112,7 @@
                 </div>
             </div>
 
-                         <div class="photo-card medium">
+            <div class="photo-card medium">
                 <div class="photo-container">
                     <img src="images/1 (10).jpeg" alt="Natureza">
                 </div>
@@ -119,17 +122,22 @@
                     <span class="photo-date">29/12/2024</span>
                 </div>
             </div>
-            
-            <!-- Continue adicionando mais fotos conforme necessário -->
+
+
         </div>
     </main>
-    
-    
-    
+    <!--Botão de play e pause-->
+    <div class="music-floating-btn" id="music-toggle" title="Play/Pause Música">
+        ⏸️
+    </div>
+
+
+
     <footer class="footer">
         <p>© 2023 Meu Mural de Fotos. Todos os direitos reservados.</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>

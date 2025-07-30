@@ -61,3 +61,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+// Controle flutuante de música
+const toggleBtn = document.getElementById('music-toggle');
+const music = document.getElementById('background-music');
+
+toggleBtn.addEventListener('click', () => {
+    if (music.paused) {
+        music.play();
+        toggleBtn.textContent = '⏸️'; // Mostra ícone de pausa
+    } else {
+        music.pause();
+        toggleBtn.textContent = '▶️'; // Mostra ícone de play
+    }
+});
+
