@@ -64,7 +64,9 @@ body {
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
-
+.proximapagina-floating-btn{
+    padding-left: 20px;
+}
 .btn {
     padding: 8px 16px;
     background-color: white;
@@ -322,7 +324,43 @@ body {
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
+
 .music-floating-btn:hover {
     background-color: var(--secondary-color);
     transform: scale(1.1);
 }
+.card {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  max-width: 400px;
+  margin: 2rem auto;
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.card h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.contador {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+
+.descricao {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  color: var(--dark-color);
+}
+ 
