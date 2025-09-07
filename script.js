@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // ==========================
     //  CONTADOR DE DIAS + TEMPO
     // ==========================
-    // Defina a data inicial (ano, mês-1, dia, hora, minuto, segundo)
-    const dataInicial = new Date(2024, 9, 29, 0, 0, 0);// 01/01/2025 00:00:00
+    // 29/09/2024 00:00:00 (mês 8 = setembro)
+    const dataInicial = new Date(2024, 8, 29, 0, 0, 0);
 
     function atualizarContador() {
         const agora = new Date();
@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Atualiza a cada segundo
+    // Atualiza ao carregar
     atualizarContador();
+    // Atualiza a cada segundo
     setInterval(atualizarContador, 1000);
 });
